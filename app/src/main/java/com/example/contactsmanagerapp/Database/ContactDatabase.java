@@ -6,7 +6,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.example.contactsmanagerapp.Entity.ContactDAO;
+import com.example.contactsmanagerapp.DAO.ContactDAO;
 import com.example.contactsmanagerapp.Entity.Contacts;
 
 @Database(entities = {Contacts.class}, version = 1)
